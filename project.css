@@ -14,23 +14,26 @@ body {
     justify-content: space-between;
     padding: 15px 50px;
     text-align: center;
+    display: flex;
+    font-size: 20px;
     
 }
-
-header h1 {
-    font-size: 24px;
+.navigation{
+    margin: 37px;
 }
-
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    margin-left: 20px;
-    font-size: 16px;
+    font-size: 20px;
+    padding-left: 30px;
+   
+}
+nav a:hover {
+    color: #ffcc00;
 }
 
 .Start {
     text-align: center;
-    color: white;
     padding: 10px 20px;
 }
 
@@ -58,64 +61,97 @@ nav a {
 .btn:hover {
     background-color: #a32a05;
 }
-
 .products {
-    padding: 50px;
     text-align: center;
+    padding: 20px;
 }
-
-.products h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
 .product-list {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    padding: 20px;
 }
-
 .product {
-    background-color: white;
-    padding: 15px;
-    border-radius: 5px;
-    width: 200px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 .product img {
-    width: 100%;
-    height: 250px;
-    border-radius: 5px;
+    width: 60%;
+    max-height: 300px;
 }
 
 .product h3 {
-    font-size: 18px;
     margin: 10px 0;
+    font-size: 18px;
 }
 
 .product p {
+    color: #000000;
     font-size: 16px;
-    color: #ff5722;
     font-weight: bold;
 }
 
-footer {
-    background-color: #222;
+.btn {
+    margin-top: 05px;
+    margin-bottom: 05px;
+    padding: 8px 15px;
+    background: #ff6600;
     color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
-footer h2{
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-.Links a{
-color: #f9f9f9;
-text-decoration: none;
 
+footer {
+    background-color: #222; /* Adjust color as needed */
+    color: white;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
-footer p{
-    margin-top: 2%;
+.foot1, .foot2 {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    text-align: left;
+    padding: 5px;
+}
+.feet h4 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.feetlist li {
+    margin: 5px 0;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.feetlist  li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.feetlist li a:hover {
+    text-decoration: underline;
+}
+.feet1 p, .feet2 p {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+footer p {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+.endd p{
+    font-size: 15px;
 }
