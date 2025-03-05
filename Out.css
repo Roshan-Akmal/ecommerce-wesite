@@ -4,16 +4,15 @@ body {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
-    color: #333;
 }
+
 .Outt h1{
     text-align: center;
- color: rgb(255, 6, 6);
+ color: #4c6fe2;
 }
 .end a{
     text-align: center;
     text-decoration: none;
-    background-color: black;
     color: #ffffff;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -25,7 +24,7 @@ body {
 
 }
 .Back{
-    background-color: #ff6600;
+    background-color: #143cc2;
    border: none;
    color:rgb(255, 255, 255);
    font-size: 16px;

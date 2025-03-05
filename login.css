@@ -38,7 +38,7 @@ input {
 .Buttonn {
     width: 100%;
     padding: 10px;
-    background-color: #ff6600;
+    background-color: #4c6fe2;
     color: white;
     border: none;
     border-radius: 5px;
@@ -47,6 +47,6 @@ input {
 }
 
 .Buttonn:hover {
-    background-color: #a32a05;
+    background-color: #143cc2;
   
 }

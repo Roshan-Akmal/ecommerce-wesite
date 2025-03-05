@@ -5,11 +5,11 @@ body {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
-    color: #333;
+   
 }
 
 .Header {
-    background-color: #222;
+    background-color: #4c6fe2;
     color: white;
     justify-content: space-between;
     padding: 15px 50px;
@@ -19,9 +19,6 @@ body {
     
 }
 .navigation{
-    justify-content: space-between;
-    text-align: center;
-    display: flex;
     margin: 37px;
 }
 nav a {
@@ -32,7 +29,7 @@ nav a {
    
 }
 nav a:hover {
-    color: #ffcc00;
+    color: #000000;
 }
 .info h1{
     text-align: center;
@@ -43,9 +40,10 @@ nav a:hover {
     font-size: 20px;
     padding-top: 10px;
     margin-left:300px;
+    
 }
 footer {
-    background-color: #222; /* Adjust color as needed */
+    background-color: #4c6fe2;
     color: white;
     padding: 40px 20px;
     font-family: Arial, sans-serif;
@@ -60,27 +58,23 @@ footer {
 }
 .feet h4 {
     font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
     margin-bottom: 10px;
 }
 
-.feetlist ul {
+.feetlist li {
+    margin: 5px 0;
     list-style: none;
     padding: 0;
+    
 }
 
-.feetlist ul li {
-    margin: 5px 0;
-}
-
-.feetlist ul li a {
+.feetlist  li a {
     color: white;
     text-decoration: none;
     font-size: 17px;
 }
 
-.feetlist ul li a:hover {
+.feetlist li a:hover {
     text-decoration: underline;
 }
 .feet1 p, .feet2 p {
