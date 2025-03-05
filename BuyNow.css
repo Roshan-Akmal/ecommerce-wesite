@@ -17,12 +17,10 @@ body {
 
 .Start1 h1 {
     font-size: 40px;
-    font-weight: bold;
 }
 
 .Start2 h2 {
     font-size: 22px;
-    font-weight: bold;
 }
 
 .box {
@@ -38,8 +36,6 @@ body {
 .label {
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 5px;
-    display: block;
 }
 
 .holder {
